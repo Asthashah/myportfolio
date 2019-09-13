@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React,{Component} from 'react';
+import './App.css';
 import Header from './components/header/header';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
-import Contact from './components/contact/contact';
+import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
-import resumeData from '../src/resumeData';
+import resumeData from './resumeData';
 class App extends Component {
   render() {
     return (
@@ -12,7 +13,7 @@ class App extends Component {
         <Header resumeData={resumeData}/>
         <About />
         <Resume />
-        <Contact />
+        <ContactUs />
         <Footer />
       </div>
     );
