@@ -20,7 +20,7 @@ export default class Header extends Component {
           <div className="banner-text">
             <h1 style ={{ color: "#f0ffff" }} className="responsive-headline">I'm Astha Shah </h1>
             <h4 style={{color:"white",padding:"20px"}}>CREATIVE-PROFESSIONAL-PASSIONATE</h4>
-            <h3 style={{color:"white"}}>FRONT-END DEVELOPER</h3>
+            <h3 style={{color:"white"}}>SOFTWARE DEVELOPER</h3>
             {/* <h3 style ={{ color: "#FFBAC7" }} > <a className="smoothscroll" href="#about" style ={{ color: "#FFBAC7" }}>about me</a>.</h3> */}
             <hr />
           </div>
