@@ -14,7 +14,7 @@ export default class About extends Component {
           </p>
           <div className="row">
             <div className="columns download">
-                  <a style = {{backgroundColor: '#0000'}}  href='Astha Shah Resume.pdf' className="button"><i className="fa fa-download" />Download Resume</a>
+                  <a style = {{backgroundColor: '#0000'}}  href='AsthaShah_Resume.pdf' className="button"><i className="fa fa-download" />Download Resume</a>
             </div>
           </div> {/* end row */}
         </div> {/* end .main-col */}
